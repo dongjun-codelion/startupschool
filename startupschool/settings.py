@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["http://*.cloudtype.app"]
+CSRF_TRUSTED_ORIGINS = ["https://*.cloudtype.app"]
 
 # Application definition
 
